@@ -48,6 +48,7 @@ nav a:hover{
     align-items: center;
     gap:20px;
     margin-bottom:20px;
+    margin-top: 20px;
 }
 
 .herosection p{
@@ -59,7 +60,6 @@ nav a:hover{
 .herosection img{
     width: 1300px;
     height: auto;
-    height: 600px;
     
 }
 
@@ -263,10 +263,13 @@ nav a:hover{
 .pick_your_realtor{}
 
 .footer{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #111e33;
     color: white;
-    padding:20px;
+    padding:40px;
+    margin: 20px;
 }
