@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+    Name: Samuel Richards
+    File Name: index.html
+    Date: 4/3/2026
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel Richard's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- The id attribute is unique in the document. Used for CSS and for navugaition links.-->
+    <header id="home">
+      <h1>Samuel Richard's Portfolio</h1>
+
+      <h3 id = "tagline"> Beginner Web Developer</h3>
+      <p id="tagline">
+        Beginning web developer with a passion for creating engaging and user-friendly websites. 
+        </p>
+    </header>
+ 
+    <nav>
+        <a href="about">About </a>
+        <a href="projects">Projects</a>
+        <a href="skills">Skills</a>
+        <a href="contact">Contact</a>
+        
+    </nav>
+ 
+    <!-- no more than one <main> element without hidden attribute specified.-->
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img
+                src = "pic.jpg"
+                alt = "Profile Picture"
+            />
+            <p>
+                Hello! My name is Samuel Richards, and I am a beginner web developer. 
+                I have a passion for creating engaging and user-friendly websites
+                 for small companies who do not currently have one.
+      </section>
+ 
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                    <h3>My First Project</h3>
+                    <img
+                        src = "restaurantweb.jpg"
+                        alt = "Project 1"
+                    />
+                    <p>This is my first project, a simple restaurant website built with HTML and CSS.</p>
+                    <a href="rest.html">View Project</a>
+            </div>
+            <div class="project-card">
+                    <h3>My Second Project</h3>
+                    <img
+                        src = "wedding.jpg"
+                        alt = "Project 2"
+                    />
+                    <p>This is my second project, which is a wedding coordination and planning website. A much more advanced website.</p>
+                    <a href="a">View Project</a>
+            </div>
+        </div>
+      </section>
+ 
+      <section id="skills">
+        <h2>Skills & Technologies</h2>
+        <ul>
+           <li>HTML5</Li> 
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+      </section>
+ 
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:samrichards0902@gmail.com">samrichards0902@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Sam09020">https://github.com/Sam09020</a></p>
+      </section>
+      
+      <section class ="cta">
+        <h2>Let's Work Together!</h2>
+        <p>If you're interested in collaborating on a project or just want to say hi, feel free to reach out!</p>
+        <a href="mailto:samrichards0902@gmail.com">Get in Touch!</a>
+      </section>
+
+    </main>
+
+    <div id = "top">
+        <a href="#home">Back to Top</a>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2026 Samuel Richards. All right reserved.</p>
+    </footer>
+
+  </body>
+</html>
